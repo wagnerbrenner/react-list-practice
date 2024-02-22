@@ -999,54 +999,6 @@
       "title": "Polymer",
       "slug": "old",
       "amountOfVideos": 39
-    },
-    {
-      "id": "6964",
-      "name": "Tag do Diego",
-      "slug": "",
-      "amountOfVideos": 0
-    },
-    {
-      "id": "b2fa",
-      "title": "12312dasdasd",
-      "slug": "",
-      "amountOfVideos": 0
-    },
-    {
-      "id": "b0d2",
-      "title": "TEste Agora vai esse slug desgraçado",
-      "slug": "teste-agora-vai-esse-slug-desgracado",
-      "amountOfVideos": 0
-    },
-    {
-      "id": "0ee8",
-      "title": "asdasdasdasd",
-      "slug": "asdasdasdasd",
-      "amountOfVideos": 0
-    },
-    {
-      "id": "891b",
-      "title": "12asdasdasdasd3",
-      "slug": "12asdasdasdasd3",
-      "amountOfVideos": 0
-    },
-    {
-      "id": "4f63",
-      "title": "Nova tag",
-      "slug": "nova-tag",
-      "amountOfVideos": 0
-    },
-    {
-      "id": "247b",
-      "title": "teste com mutation",
-      "slug": "teste-com-mutation",
-      "amountOfVideos": 0
-    },
-    {
-      "id": "4037",
-      "title": "deve aparecer na lista sozinho",
-      "slug": "deve-aparecer-na-lista-sozinho",
-      "amountOfVideos": 0
     }
   ]
 }
