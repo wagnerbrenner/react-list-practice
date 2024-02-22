@@ -1,7 +1,7 @@
-import { ChevronDown } from 'lucide-react'
+import { ChevronDown } from "lucide-react";
 
-import nivoLogo from '../assets/logo-nivo.svg'
-import { Badge } from './ui/badge'
+import nivoLogo from "../assets/logo-nivo.svg";
+import { Badge } from "./ui/badge";
 
 export function Header() {
   return (
@@ -68,16 +68,24 @@ export function Header() {
 
       <div className="flex items-center gap-3">
         <div className="flex flex-col items-end gap-0.5">
-          <span className="text-sm font-medium">Diego Fernandes</span>
-          <span className="text-xs text-zinc-400">diego@nivo.video</span>
+          <a
+            href="https://www.linkedin.com/in/wagnercarvalhobrenner/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="font-medium">Wagner Brenner</span>
+          </a>
+          <span className="text-xs text-zinc-400">
+            wagner.brenner13@gmail.com
+          </span>
         </div>
         <img
-          src="https://github.com/diego3g.png"
+          src="https://github.com/wagnerbrenner.png"
           className="size-8 rounded-full"
           alt=""
         />
         <ChevronDown className="size-4 text-zinc-600" />
       </div>
     </div>
-  )
+  );
 }
