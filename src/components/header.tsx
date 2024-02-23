@@ -66,15 +66,17 @@ export function Header() {
         </div>
       </div>
 
-      <div className="flex items-center gap-3">
+      <div
+        className="flex items-center gap-3 cursor-pointer"
+        onClick={() =>
+          window.open(
+            "https://www.linkedin.com/in/wagnercarvalhobrenner/",
+            "_blank"
+          )
+        }
+      >
         <div className="flex flex-col items-end gap-0.5">
-          <a
-            href="https://www.linkedin.com/in/wagnercarvalhobrenner/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span className="font-medium">Wagner Brenner</span>
-          </a>
+          <span className="font-medium">Wagner Brenner</span>
           <span className="text-xs text-zinc-400">
             wagner.brenner13@gmail.com
           </span>
