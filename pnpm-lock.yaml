@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@hookform/resolvers':
+    specifier: ^3.3.4
+    version: 3.3.4(react-hook-form@7.50.1)
   '@radix-ui/react-dialog':
     specifier: ^1.0.5
     version: 1.0.5(@types/react-dom@18.2.19)(@types/react@18.2.57)(react-dom@18.2.0)(react@18.2.0)
@@ -29,9 +32,15 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  react-hook-form:
+    specifier: ^7.50.1
+    version: 7.50.1(react@18.2.0)
   react-router-dom:
     specifier: ^6.22.1
     version: 6.22.1(react-dom@18.2.0)(react@18.2.0)
+  react-toastify:
+    specifier: ^10.0.4
+    version: 10.0.4(react-dom@18.2.0)(react@18.2.0)
   sort-by:
     specifier: ^1.2.0
     version: 1.2.0
@@ -41,6 +50,9 @@ dependencies:
   tailwind-variants:
     specifier: ^0.2.0
     version: 0.2.0(tailwindcss@3.4.1)
+  zod:
+    specifier: ^3.22.4
+    version: 3.22.4
 
 devDependencies:
   '@types/react':
@@ -598,6 +610,14 @@ packages:
 
   /@floating-ui/utils@0.2.1:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
+    dev: false
+
+  /@hookform/resolvers@3.3.4(react-hook-form@7.50.1):
+    resolution: {integrity: sha512-o5cgpGOuJYrd+iMKvkttOclgwRW86EsWJZZRC23prf0uU2i48Htq4PuT73AVb9ionFyZrwYEITuOFGF+BydEtQ==}
+    peerDependencies:
+      react-hook-form: ^7.0.0
+    dependencies:
+      react-hook-form: 7.50.1(react@18.2.0)
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
@@ -1812,6 +1832,11 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
+  /clsx@2.1.0:
+    resolution: {integrity: sha512-m3iNNWpd9rl3jvvcBnu70ylMdrXt8Vlq4HYadnU5fwcOtvkSQWPmj7amUcDT2qYI7risszBjI5AUIUox9D16pg==}
+    engines: {node: '>=6'}
+    dev: false
+
   /color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
     dependencies:
@@ -2777,6 +2802,15 @@ packages:
       scheduler: 0.23.0
     dev: false
 
+  /react-hook-form@7.50.1(react@18.2.0):
+    resolution: {integrity: sha512-3PCY82oE0WgeOgUtIr3nYNNtNvqtJ7BZjsbxh6TnYNbXButaD5WpjOmTjdxZfheuHKR68qfeFnEDVYoSSFPMTQ==}
+    engines: {node: '>=12.22.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /react-refresh@0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
     engines: {node: '>=0.10.0'}
@@ -2855,6 +2889,17 @@ packages:
       invariant: 2.2.4
       react: 18.2.0
       tslib: 2.6.2
+    dev: false
+
+  /react-toastify@10.0.4(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-etR3RgueY8pe88SA67wLm8rJmL1h+CLqUGHuAoNsseW35oTGJEri6eBTyaXnFKNQ80v/eO10hBYLgz036XRGgA==}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      clsx: 2.1.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react@18.2.0:
@@ -3318,3 +3363,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+    dev: false
